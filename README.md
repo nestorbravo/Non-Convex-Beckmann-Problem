@@ -8,7 +8,6 @@ Install the dependencies and open the notebook:
 
 ```bash
 python -m pip install numpy scipy matplotlib pyscipopt jupyterlab
-jupyter lab Nonconvex_Beckmann_comentada.ipynb
 ```
 
 Run the cells in order. To run an individual experiment, first execute the imports and the function definitions it uses. Some experiments reuse `potential`, so set it explicitly when rerunning a section out of order.
